@@ -1,0 +1,51 @@
+.gandalf p
+{
+	font-size: 1.5em;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;	
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	border-radius: 5px;
+    width: 10em;
+    position: absolute;
+    left: 1em;
+    top: 2em;
+	
+}
+
+.gandalf p span
+{
+	color: orange;
+}
+
+.gandalf h2
+{
+	position: absolute;
+	bottom : 2em;
+	color: white;
+    font-size:3.5em;
+    padding-left: 0.5em;
+}
+
+.gandalfI
+{
+    opacity : 0.5;
+}
+
+.gandalfB:hover .gandalf
+{
+    visibility: hidden;
+}
+
+.gandalfB:hover .gandalfI
+{
+    opacity: 1;
+}
+
+hr.style-one
+{
+    border: 0;
+    height: 1px;
+    background: #333;
+    width: 75%;
+}

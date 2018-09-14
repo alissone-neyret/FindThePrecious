@@ -1,0 +1,64 @@
+body
+{
+	font-family: arial;
+}
+
+.gandalf
+{
+	width : 20em;
+	height: 25em;
+	margin-bottom: 6em;
+}
+
+.gandalf img 
+{
+	width : 20em;
+	height: 25em;
+	opacity: 0.5;
+}
+
+.gandalf p
+{
+	font-size: 1.5em;
+	background-color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+	margin-left: 1em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	border-radius: 5px;
+	width: 10em;
+	position: absolute;
+	bottom: 10em;
+	left: 2.7em;
+}
+
+.gandalf p span
+{
+	color: orange;
+}
+
+.gandalf h2
+{
+	position: absolute;
+	bottom : 0.6em;
+	color: white;
+	font-size:3.5em;
+	padding-left: 1em;
+}
+
+.gandalf:hover img 
+{
+	opacity: 1;
+}
+
+.gandalf:hover h2 
+{
+	margin-bottom: -1.5em;
+	font-size: 2em;
+	margin-left: 2em;
+}
+
+.gandalf:hover p
+{
+	visibility: hidden;
+}
